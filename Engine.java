@@ -52,6 +52,11 @@ public class Engine {
   // TODO: Complete this method
   // Player is either 0 or 1, row and column are valid and empty
   public void playerTurn(int player, int row, int col) {
+    Scanner kb = new Scanner(System.in);
+    System.out.println("Enter what row");
+    int row = kb.nextInt();
+    System.out.println("Enter what col");
+    int col = kb.nextInt();
     return;
   }
 
